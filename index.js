@@ -1,5 +1,5 @@
 const {Telegraf} = require('telegraf')
-const token = process.env['token']
+const token = "5292308365:AAGv23GwHwgmQtbMvXO2DnVjY4bKgWyy6eo"
 const bot = new Telegraf(token) 
 const youtube = require('scrape-youtube');
 const translator = require('translation-google')
